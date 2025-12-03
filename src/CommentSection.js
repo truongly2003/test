@@ -86,6 +86,7 @@ const CommentSection = () => {
   return (
     <div className="comment-section">
       <h2>Bình luận cho bài viết {postId}</h2>
+      <h2>truong</h2>
       <form onSubmit={handleSubmit}>
         <textarea
           value={content}
